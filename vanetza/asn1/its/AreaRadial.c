@@ -13,15 +13,7 @@ asn_TYPE_member_t asn_MBR_AreaRadial_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_Range,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"range"
 		},
@@ -30,15 +22,7 @@ asn_TYPE_member_t asn_MBR_AreaRadial_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_WGS84AngleValue,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"stationaryHorizontalOpeningAngleStart"
 		},
@@ -47,15 +31,7 @@ asn_TYPE_member_t asn_MBR_AreaRadial_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_WGS84AngleValue,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"stationaryHorizontalOpeningAngleEnd"
 		},
@@ -64,15 +40,7 @@ asn_TYPE_member_t asn_MBR_AreaRadial_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_CartesianAngleValue,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"verticalOpeningAngleStart"
 		},
@@ -81,15 +49,7 @@ asn_TYPE_member_t asn_MBR_AreaRadial_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_CartesianAngleValue,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"verticalOpeningAngleEnd"
 		},
@@ -98,15 +58,7 @@ asn_TYPE_member_t asn_MBR_AreaRadial_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_OffsetPoint,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"sensorPositionOffset"
 		},
@@ -115,15 +67,7 @@ asn_TYPE_member_t asn_MBR_AreaRadial_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_SensorHeight,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"sensorHeight"
 		},
@@ -160,15 +104,7 @@ asn_TYPE_descriptor_t asn_DEF_AreaRadial = {
 	asn_DEF_AreaRadial_tags_1,	/* Same as above */
 	sizeof(asn_DEF_AreaRadial_tags_1)
 		/sizeof(asn_DEF_AreaRadial_tags_1[0]), /* 1 */
-	{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-		0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-		0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-		SEQUENCE_constraint
-	},
+	{ 0, 0, SEQUENCE_constraint },
 	asn_MBR_AreaRadial_1,
 	7,	/* Elements count */
 	&asn_SPC_AreaRadial_specs_1	/* Additional specs */

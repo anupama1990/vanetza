@@ -57,15 +57,7 @@ asn_TYPE_member_t asn_MBR_PerceivedObject_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_Identifier,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"objectID"
 		},
@@ -74,15 +66,7 @@ asn_TYPE_member_t asn_MBR_PerceivedObject_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_SensorIdList,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"sensorIDList"
 		},
@@ -91,15 +75,7 @@ asn_TYPE_member_t asn_MBR_PerceivedObject_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_TimeOfMeasurement,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"timeOfMeasurement"
 		},
@@ -108,15 +84,7 @@ asn_TYPE_member_t asn_MBR_PerceivedObject_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_ObjectAge,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"objectAge"
 		},
@@ -125,15 +93,7 @@ asn_TYPE_member_t asn_MBR_PerceivedObject_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_ObjectConfidence,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		&asn_DFL_6_cmp_0,	/* Compare DEFAULT 0 */
 		&asn_DFL_6_set_0,	/* Set DEFAULT 0 */
 		"objectConfidence"
@@ -143,15 +103,7 @@ asn_TYPE_member_t asn_MBR_PerceivedObject_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_ObjectDistanceWithConfidence,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"xDistance"
 		},
@@ -160,15 +112,7 @@ asn_TYPE_member_t asn_MBR_PerceivedObject_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_ObjectDistanceWithConfidence,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"yDistance"
 		},
@@ -177,15 +121,7 @@ asn_TYPE_member_t asn_MBR_PerceivedObject_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_ObjectDistanceWithConfidence,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"zDistance"
 		},
@@ -194,15 +130,7 @@ asn_TYPE_member_t asn_MBR_PerceivedObject_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_SpeedExtended,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"xSpeed"
 		},
@@ -211,15 +139,7 @@ asn_TYPE_member_t asn_MBR_PerceivedObject_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_SpeedExtended,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"ySpeed"
 		},
@@ -228,15 +148,7 @@ asn_TYPE_member_t asn_MBR_PerceivedObject_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_SpeedExtended,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"zSpeed"
 		},
@@ -245,15 +157,7 @@ asn_TYPE_member_t asn_MBR_PerceivedObject_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_LongitudinalAcceleration,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"xAcceleration"
 		},
@@ -262,15 +166,7 @@ asn_TYPE_member_t asn_MBR_PerceivedObject_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_LateralAcceleration,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"yAcceleration"
 		},
@@ -279,15 +175,7 @@ asn_TYPE_member_t asn_MBR_PerceivedObject_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_VerticalAcceleration,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"zAcceleration"
 		},
@@ -296,15 +184,7 @@ asn_TYPE_member_t asn_MBR_PerceivedObject_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_CartesianAngle,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"yawAngle"
 		},
@@ -313,15 +193,7 @@ asn_TYPE_member_t asn_MBR_PerceivedObject_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_ObjectDimension,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"planarObjectDimension1"
 		},
@@ -330,15 +202,7 @@ asn_TYPE_member_t asn_MBR_PerceivedObject_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_ObjectDimension,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"planarObjectDimension2"
 		},
@@ -347,15 +211,7 @@ asn_TYPE_member_t asn_MBR_PerceivedObject_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_ObjectDimension,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"verticalObjectDimension"
 		},
@@ -364,15 +220,7 @@ asn_TYPE_member_t asn_MBR_PerceivedObject_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_ObjectRefPoint,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		&asn_DFL_20_cmp_0,	/* Compare DEFAULT 0 */
 		&asn_DFL_20_set_0,	/* Set DEFAULT 0 */
 		"objectRefPoint"
@@ -382,15 +230,7 @@ asn_TYPE_member_t asn_MBR_PerceivedObject_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_DynamicStatus,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"dynamicStatus"
 		},
@@ -399,15 +239,7 @@ asn_TYPE_member_t asn_MBR_PerceivedObject_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_ObjectClassDescription,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"classification"
 		},
@@ -416,15 +248,7 @@ asn_TYPE_member_t asn_MBR_PerceivedObject_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_MatchedPosition,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"matchedPosition"
 		},
@@ -476,15 +300,7 @@ asn_TYPE_descriptor_t asn_DEF_PerceivedObject = {
 	asn_DEF_PerceivedObject_tags_1,	/* Same as above */
 	sizeof(asn_DEF_PerceivedObject_tags_1)
 		/sizeof(asn_DEF_PerceivedObject_tags_1[0]), /* 1 */
-	{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-		0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-		0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-		SEQUENCE_constraint
-	},
+	{ 0, 0, SEQUENCE_constraint },
 	asn_MBR_PerceivedObject_1,
 	22,	/* Elements count */
 	&asn_SPC_PerceivedObject_specs_1	/* Additional specs */

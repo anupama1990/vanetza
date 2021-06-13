@@ -7,33 +7,21 @@
 
 #include "CertificateSubjectAttributes.h"
 
-#if !defined(ASN_DISABLE_OER_SUPPORT)
 static asn_oer_constraints_t asn_OER_type_CertificateSubjectAttributes_constr_1 CC_NOTUSED = {
 	{ 0, 0 },
 	-1};
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
 asn_per_constraints_t asn_PER_type_CertificateSubjectAttributes_constr_1 CC_NOTUSED = {
 	{ APC_UNCONSTRAINED,	-1, -1,  0,  0 },
 	{ APC_UNCONSTRAINED,	-1, -1,  0,  0 },
 	0, 0	/* No PER value map */
 };
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
 asn_TYPE_member_t asn_MBR_CertificateSubjectAttributes_1[] = {
 	{ ATF_POINTER, 6, offsetof(struct CertificateSubjectAttributes, id),
 		(ASN_TAG_CLASS_CONTEXT | (0 << 2)),
 		+1,	/* EXPLICIT tag at current level */
 		&asn_DEF_CertificateId,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"id"
 		},
@@ -42,15 +30,7 @@ asn_TYPE_member_t asn_MBR_CertificateSubjectAttributes_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_ValidityPeriod,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"validityPeriod"
 		},
@@ -59,15 +39,7 @@ asn_TYPE_member_t asn_MBR_CertificateSubjectAttributes_1[] = {
 		+1,	/* EXPLICIT tag at current level */
 		&asn_DEF_GeographicRegion,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"region"
 		},
@@ -76,15 +48,7 @@ asn_TYPE_member_t asn_MBR_CertificateSubjectAttributes_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_SubjectAssurance,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"assuranceLevel"
 		},
@@ -93,15 +57,7 @@ asn_TYPE_member_t asn_MBR_CertificateSubjectAttributes_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_SequenceOfPsidSsp,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"appPermissions"
 		},
@@ -110,15 +66,7 @@ asn_TYPE_member_t asn_MBR_CertificateSubjectAttributes_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_SequenceOfPsidGroupPermissions,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"certIssuePermissions"
 		},
@@ -154,15 +102,7 @@ asn_TYPE_descriptor_t asn_DEF_CertificateSubjectAttributes = {
 	asn_DEF_CertificateSubjectAttributes_tags_1,	/* Same as above */
 	sizeof(asn_DEF_CertificateSubjectAttributes_tags_1)
 		/sizeof(asn_DEF_CertificateSubjectAttributes_tags_1[0]), /* 1 */
-	{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-		&asn_OER_type_CertificateSubjectAttributes_constr_1,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-		&asn_PER_type_CertificateSubjectAttributes_constr_1,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-		SEQUENCE_constraint
-	},
+	{ &asn_OER_type_CertificateSubjectAttributes_constr_1, &asn_PER_type_CertificateSubjectAttributes_constr_1, SEQUENCE_constraint },
 	asn_MBR_CertificateSubjectAttributes_1,
 	6,	/* Elements count */
 	&asn_SPC_CertificateSubjectAttributes_specs_1	/* Additional specs */

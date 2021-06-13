@@ -13,15 +13,7 @@ static asn_TYPE_member_t asn_MBR_cert_3[] = {
 		0,
 		&asn_DEF_HashedId8,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		""
 		},
@@ -46,15 +38,7 @@ asn_TYPE_descriptor_t asn_DEF_cert_3 = {
 	asn_DEF_cert_tags_3,	/* Same as above */
 	sizeof(asn_DEF_cert_tags_3)
 		/sizeof(asn_DEF_cert_tags_3[0]), /* 2 */
-	{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-		0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-		0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-		SEQUENCE_OF_constraint
-	},
+	{ 0, 0, SEQUENCE_OF_constraint },
 	asn_MBR_cert_3,
 	1,	/* Single element */
 	&asn_SPC_cert_specs_3	/* Additional specs */
@@ -66,15 +50,7 @@ asn_TYPE_member_t asn_MBR_DcEntry_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_Url,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"url"
 		},
@@ -83,15 +59,7 @@ asn_TYPE_member_t asn_MBR_DcEntry_1[] = {
 		0,
 		&asn_DEF_cert_3,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"cert"
 		},
@@ -121,15 +89,7 @@ asn_TYPE_descriptor_t asn_DEF_DcEntry = {
 	asn_DEF_DcEntry_tags_1,	/* Same as above */
 	sizeof(asn_DEF_DcEntry_tags_1)
 		/sizeof(asn_DEF_DcEntry_tags_1[0]), /* 1 */
-	{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-		0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-		0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-		SEQUENCE_constraint
-	},
+	{ 0, 0, SEQUENCE_constraint },
 	asn_MBR_DcEntry_1,
 	2,	/* Elements count */
 	&asn_SPC_DcEntry_specs_1	/* Additional specs */

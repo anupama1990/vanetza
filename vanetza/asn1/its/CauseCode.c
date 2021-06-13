@@ -13,15 +13,7 @@ asn_TYPE_member_t asn_MBR_CauseCode_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_CauseCodeType,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"causeCode"
 		},
@@ -30,15 +22,7 @@ asn_TYPE_member_t asn_MBR_CauseCode_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_SubCauseCodeType,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"subCauseCode"
 		},
@@ -68,15 +52,7 @@ asn_TYPE_descriptor_t asn_DEF_CauseCode = {
 	asn_DEF_CauseCode_tags_1,	/* Same as above */
 	sizeof(asn_DEF_CauseCode_tags_1)
 		/sizeof(asn_DEF_CauseCode_tags_1[0]), /* 1 */
-	{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-		0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-		0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-		SEQUENCE_constraint
-	},
+	{ 0, 0, SEQUENCE_constraint },
 	asn_MBR_CauseCode_1,
 	2,	/* Elements count */
 	&asn_SPC_CauseCode_specs_1	/* Additional specs */

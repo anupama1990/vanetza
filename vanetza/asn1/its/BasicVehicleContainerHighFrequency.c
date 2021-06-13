@@ -13,15 +13,7 @@ asn_TYPE_member_t asn_MBR_BasicVehicleContainerHighFrequency_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_Heading,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"heading"
 		},
@@ -30,15 +22,7 @@ asn_TYPE_member_t asn_MBR_BasicVehicleContainerHighFrequency_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_Speed,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"speed"
 		},
@@ -47,15 +31,7 @@ asn_TYPE_member_t asn_MBR_BasicVehicleContainerHighFrequency_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_DriveDirection,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"driveDirection"
 		},
@@ -64,15 +40,7 @@ asn_TYPE_member_t asn_MBR_BasicVehicleContainerHighFrequency_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_VehicleLength,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"vehicleLength"
 		},
@@ -81,15 +49,7 @@ asn_TYPE_member_t asn_MBR_BasicVehicleContainerHighFrequency_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_VehicleWidth,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"vehicleWidth"
 		},
@@ -98,15 +58,7 @@ asn_TYPE_member_t asn_MBR_BasicVehicleContainerHighFrequency_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_LongitudinalAcceleration,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"longitudinalAcceleration"
 		},
@@ -115,15 +67,7 @@ asn_TYPE_member_t asn_MBR_BasicVehicleContainerHighFrequency_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_Curvature,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"curvature"
 		},
@@ -132,15 +76,7 @@ asn_TYPE_member_t asn_MBR_BasicVehicleContainerHighFrequency_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_CurvatureCalculationMode,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"curvatureCalculationMode"
 		},
@@ -149,15 +85,7 @@ asn_TYPE_member_t asn_MBR_BasicVehicleContainerHighFrequency_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_YawRate,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"yawRate"
 		},
@@ -166,15 +94,7 @@ asn_TYPE_member_t asn_MBR_BasicVehicleContainerHighFrequency_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_AccelerationControl,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"accelerationControl"
 		},
@@ -183,15 +103,7 @@ asn_TYPE_member_t asn_MBR_BasicVehicleContainerHighFrequency_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_LanePosition,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"lanePosition"
 		},
@@ -200,15 +112,7 @@ asn_TYPE_member_t asn_MBR_BasicVehicleContainerHighFrequency_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_SteeringWheelAngle,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"steeringWheelAngle"
 		},
@@ -217,15 +121,7 @@ asn_TYPE_member_t asn_MBR_BasicVehicleContainerHighFrequency_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_LateralAcceleration,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"lateralAcceleration"
 		},
@@ -234,15 +130,7 @@ asn_TYPE_member_t asn_MBR_BasicVehicleContainerHighFrequency_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_VerticalAcceleration,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"verticalAcceleration"
 		},
@@ -251,15 +139,7 @@ asn_TYPE_member_t asn_MBR_BasicVehicleContainerHighFrequency_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_PerformanceClass,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"performanceClass"
 		},
@@ -268,15 +148,7 @@ asn_TYPE_member_t asn_MBR_BasicVehicleContainerHighFrequency_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_CenDsrcTollingZone,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"cenDsrcTollingZone"
 		},
@@ -322,15 +194,7 @@ asn_TYPE_descriptor_t asn_DEF_BasicVehicleContainerHighFrequency = {
 	asn_DEF_BasicVehicleContainerHighFrequency_tags_1,	/* Same as above */
 	sizeof(asn_DEF_BasicVehicleContainerHighFrequency_tags_1)
 		/sizeof(asn_DEF_BasicVehicleContainerHighFrequency_tags_1[0]), /* 1 */
-	{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-		0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-		0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-		SEQUENCE_constraint
-	},
+	{ 0, 0, SEQUENCE_constraint },
 	asn_MBR_BasicVehicleContainerHighFrequency_1,
 	16,	/* Elements count */
 	&asn_SPC_BasicVehicleContainerHighFrequency_specs_1	/* Additional specs */

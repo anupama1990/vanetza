@@ -35,15 +35,7 @@ asn_TYPE_member_t asn_MBR_OriginatingVehicleContainer_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_Heading,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"heading"
 		},
@@ -52,15 +44,7 @@ asn_TYPE_member_t asn_MBR_OriginatingVehicleContainer_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_Speed,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"speed"
 		},
@@ -69,15 +53,7 @@ asn_TYPE_member_t asn_MBR_OriginatingVehicleContainer_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_WGS84Angle,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"vehicleOrientationAngle"
 		},
@@ -86,15 +62,7 @@ asn_TYPE_member_t asn_MBR_OriginatingVehicleContainer_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_DriveDirection,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		&asn_DFL_5_cmp_0,	/* Compare DEFAULT 0 */
 		&asn_DFL_5_set_0,	/* Set DEFAULT 0 */
 		"driveDirection"
@@ -104,15 +72,7 @@ asn_TYPE_member_t asn_MBR_OriginatingVehicleContainer_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_LongitudinalAcceleration,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"longitudinalAcceleration"
 		},
@@ -121,15 +81,7 @@ asn_TYPE_member_t asn_MBR_OriginatingVehicleContainer_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_LateralAcceleration,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"lateralAcceleration"
 		},
@@ -138,15 +90,7 @@ asn_TYPE_member_t asn_MBR_OriginatingVehicleContainer_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_VerticalAcceleration,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"verticalAcceleration"
 		},
@@ -155,15 +99,7 @@ asn_TYPE_member_t asn_MBR_OriginatingVehicleContainer_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_YawRate,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"yawRate"
 		},
@@ -172,15 +108,7 @@ asn_TYPE_member_t asn_MBR_OriginatingVehicleContainer_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_CartesianAngle,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"pitchAngle"
 		},
@@ -189,15 +117,7 @@ asn_TYPE_member_t asn_MBR_OriginatingVehicleContainer_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_CartesianAngle,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"rollAngle"
 		},
@@ -206,15 +126,7 @@ asn_TYPE_member_t asn_MBR_OriginatingVehicleContainer_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_VehicleLength,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"vehicleLength"
 		},
@@ -223,15 +135,7 @@ asn_TYPE_member_t asn_MBR_OriginatingVehicleContainer_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_VehicleWidth,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"vehicleWidth"
 		},
@@ -240,15 +144,7 @@ asn_TYPE_member_t asn_MBR_OriginatingVehicleContainer_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_VehicleHeight,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"vehicleHeight"
 		},
@@ -257,15 +153,7 @@ asn_TYPE_member_t asn_MBR_OriginatingVehicleContainer_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_TrailerDataContainer,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"trailerDataContainer"
 		},
@@ -309,15 +197,7 @@ asn_TYPE_descriptor_t asn_DEF_OriginatingVehicleContainer = {
 	asn_DEF_OriginatingVehicleContainer_tags_1,	/* Same as above */
 	sizeof(asn_DEF_OriginatingVehicleContainer_tags_1)
 		/sizeof(asn_DEF_OriginatingVehicleContainer_tags_1[0]), /* 1 */
-	{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-		0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-		0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-		SEQUENCE_constraint
-	},
+	{ 0, 0, SEQUENCE_constraint },
 	asn_MBR_OriginatingVehicleContainer_1,
 	14,	/* Elements count */
 	&asn_SPC_OriginatingVehicleContainer_specs_1	/* Additional specs */

@@ -13,15 +13,7 @@ asn_TYPE_member_t asn_MBR_SensorInformation_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_Identifier,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"sensorID"
 		},
@@ -30,15 +22,7 @@ asn_TYPE_member_t asn_MBR_SensorInformation_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_SensorType,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"type"
 		},
@@ -47,15 +31,7 @@ asn_TYPE_member_t asn_MBR_SensorInformation_1[] = {
 		+1,	/* EXPLICIT tag at current level */
 		&asn_DEF_DetectionArea,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"detectionArea"
 		},
@@ -64,15 +40,7 @@ asn_TYPE_member_t asn_MBR_SensorInformation_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_FreeSpaceConfidence,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		"freeSpaceConfidence"
 		},
@@ -106,15 +74,7 @@ asn_TYPE_descriptor_t asn_DEF_SensorInformation = {
 	asn_DEF_SensorInformation_tags_1,	/* Same as above */
 	sizeof(asn_DEF_SensorInformation_tags_1)
 		/sizeof(asn_DEF_SensorInformation_tags_1[0]), /* 1 */
-	{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-		0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-		0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-		SEQUENCE_constraint
-	},
+	{ 0, 0, SEQUENCE_constraint },
 	asn_MBR_SensorInformation_1,
 	4,	/* Elements count */
 	&asn_SPC_SensorInformation_specs_1	/* Additional specs */

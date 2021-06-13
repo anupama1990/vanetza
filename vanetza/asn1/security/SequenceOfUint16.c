@@ -13,15 +13,7 @@ asn_TYPE_member_t asn_MBR_SequenceOfUint16_1[] = {
 		0,
 		&asn_DEF_Uint16,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			0
-		},
+		{ 0, 0, 0 },
 		0, 0, /* No default value */
 		""
 		},
@@ -44,15 +36,7 @@ asn_TYPE_descriptor_t asn_DEF_SequenceOfUint16 = {
 	asn_DEF_SequenceOfUint16_tags_1,	/* Same as above */
 	sizeof(asn_DEF_SequenceOfUint16_tags_1)
 		/sizeof(asn_DEF_SequenceOfUint16_tags_1[0]), /* 1 */
-	{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-		0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-		0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-		SEQUENCE_OF_constraint
-	},
+	{ 0, 0, SEQUENCE_OF_constraint },
 	asn_MBR_SequenceOfUint16_1,
 	1,	/* Single element */
 	&asn_SPC_SequenceOfUint16_specs_1	/* Additional specs */

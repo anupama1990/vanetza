@@ -22,7 +22,7 @@ memb_jValue_constraint_1(const asn_TYPE_descriptor_t *td, const void *sptr,
 	
 	size = st->size;
 	
-	if((size == 4UL)) {
+	if((size == 4)) {
 		/* Constraint check succeeded */
 		return 0;
 	} else {
@@ -48,7 +48,7 @@ memb_value_constraint_1(const asn_TYPE_descriptor_t *td, const void *sptr,
 	
 	size = st->size;
 	
-	if((size == 9UL)) {
+	if((size == 9)) {
 		/* Constraint check succeeded */
 		return 0;
 	} else {
@@ -59,45 +59,29 @@ memb_value_constraint_1(const asn_TYPE_descriptor_t *td, const void *sptr,
 	}
 }
 
-#if !defined(ASN_DISABLE_OER_SUPPORT)
 static asn_oer_constraints_t asn_OER_memb_jValue_constr_2 CC_NOTUSED = {
 	{ 0, 0 },
 	4	/* (SIZE(4..4)) */};
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
 static asn_per_constraints_t asn_PER_memb_jValue_constr_2 CC_NOTUSED = {
 	{ APC_UNCONSTRAINED,	-1, -1,  0,  0 },
 	{ APC_CONSTRAINED,	 0,  0,  4,  4 }	/* (SIZE(4..4)) */,
 	0, 0	/* No PER value map */
 };
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-#if !defined(ASN_DISABLE_OER_SUPPORT)
 static asn_oer_constraints_t asn_OER_memb_value_constr_3 CC_NOTUSED = {
 	{ 0, 0 },
 	9	/* (SIZE(9..9)) */};
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
 static asn_per_constraints_t asn_PER_memb_value_constr_3 CC_NOTUSED = {
 	{ APC_UNCONSTRAINED,	-1, -1,  0,  0 },
 	{ APC_CONSTRAINED,	 0,  0,  9,  9 }	/* (SIZE(9..9)) */,
 	0, 0	/* No PER value map */
 };
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
 asn_TYPE_member_t asn_MBR_GroupLinkageValue_1[] = {
 	{ ATF_NOFLAGS, 0, offsetof(struct GroupLinkageValue, jValue),
 		(ASN_TAG_CLASS_CONTEXT | (0 << 2)),
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_OCTET_STRING,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			&asn_OER_memb_jValue_constr_2,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			&asn_PER_memb_jValue_constr_2,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			memb_jValue_constraint_1
-		},
+		{ &asn_OER_memb_jValue_constr_2, &asn_PER_memb_jValue_constr_2,  memb_jValue_constraint_1 },
 		0, 0, /* No default value */
 		"jValue"
 		},
@@ -106,15 +90,7 @@ asn_TYPE_member_t asn_MBR_GroupLinkageValue_1[] = {
 		-1,	/* IMPLICIT tag at current level */
 		&asn_DEF_OCTET_STRING,
 		0,
-		{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-			&asn_OER_memb_value_constr_3,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-			&asn_PER_memb_value_constr_3,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-			memb_value_constraint_1
-		},
+		{ &asn_OER_memb_value_constr_3, &asn_PER_memb_value_constr_3,  memb_value_constraint_1 },
 		0, 0, /* No default value */
 		"value"
 		},
@@ -144,15 +120,7 @@ asn_TYPE_descriptor_t asn_DEF_GroupLinkageValue = {
 	asn_DEF_GroupLinkageValue_tags_1,	/* Same as above */
 	sizeof(asn_DEF_GroupLinkageValue_tags_1)
 		/sizeof(asn_DEF_GroupLinkageValue_tags_1[0]), /* 1 */
-	{
-#if !defined(ASN_DISABLE_OER_SUPPORT)
-		0,
-#endif  /* !defined(ASN_DISABLE_OER_SUPPORT) */
-#if !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT)
-		0,
-#endif  /* !defined(ASN_DISABLE_UPER_SUPPORT) || !defined(ASN_DISABLE_APER_SUPPORT) */
-		SEQUENCE_constraint
-	},
+	{ 0, 0, SEQUENCE_constraint },
 	asn_MBR_GroupLinkageValue_1,
 	2,	/* Elements count */
 	&asn_SPC_GroupLinkageValue_specs_1	/* Additional specs */
